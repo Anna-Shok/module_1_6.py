@@ -3,13 +3,12 @@ print(my_dict)
 
 print(my_dict ['Eva'])
 
-my_dict['Olya'] = 1939
-print(my_dict)
+print(my_dict.get('Olya', 'Такого значения нет'))
 
 my_dict.update ({'Alla': 1984, 'Mark': 1910})
 print(my_dict)
 
-my_dict.pop('Misha')
+print(my_dict.pop('Ivan'))
 print(my_dict)
 
 my_set = {1, 2, 3, 54, 54, 'apple', 3, 9, 'apple'}
